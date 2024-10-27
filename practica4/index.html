@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 4 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Arduino Basico Entradas Digitales</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/jp.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Andrea Tapia Balvanera</div>
+                                <div class="text-muted">Ingeniería Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Septiembre 6, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="400px" src="img/arduinopic.jpeg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica aprendimos sobre programación y conexión de entradas y salidas digitales (leds y botones), usando un arduino como base para programar funciones en el circuito del protoboard. </p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">En esta práctica, exploramos cómo se usa la programación y arduino, utilizando un protoboard como placa de trabajo, centrándonos en los leds y botones, programamos funciones en el Arduino que nos permitan controlar el comportamiento de estos componentes, donde, además, el botón nos permitía controlar el comportamiento de las luces led.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Arduino UNO </p> Jumpers </p> Botones </p> Resistencias </p> Protoboard</p> <p>LEDS</p></p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Lo primero que hicimos fue programar el arduino, posterior a eso construimos el circuito en el protoboard, que consistía en colocar un LED y formar una conexión con un botón. Para este circuito usamos 2 códigos distintos, a pesar de que el fin de los 2 códigos es el mismo, que es prender el led si el botón es presionado, funcionan de diferente manera. En el primer código solo escribía en el LED el valor del botón, en el segundo código se usaron condicionales, si el botón esta activado entones encenderlo, si el botón esta desactivado, entonces apagarlo. </p>
+                        <p class="fs-6 mb-4">Lo segundo que hicimos fue programar el arduino, posterior a eso construimos el circuito en el protoboard, que consistía en colocar dos LED y formar una conexión con dos botónes, uno para cada LED. Para este circuito usamos 2 códigos distintos, a pesar de que el fin de los 2 códigos es el mismo, que es prender un LED si el botón que le corresponde es presionado, funcionan de diferente manera. En el primer código solo escribía en cada LED el valor de su botón correspondiente, en el segundo código se usaron condicionales, si el botón1 está activado entones encender el LED1, si el botón1 está desactivado entonces apagar el LED1, si el botón2 está activado entones encender el LED2, si el botón2 está desactivado entonces apagar el LED2.</p>
+                        <p class="fs-6 mb-4">Lo tercero que hicimos fue programar el arduino, posterior a eso construimos el circuito en el protoboard, que consistía en colocar cuatro LEDs y formar una conexión con un solo botón. Para este circuito usamos solo un código que tenía la función de que cada que se presionaba el botón un LED es prendido en manera de secuencia, en tipo contador hasta que todos los LEDs sean prendidos, reiniciándose el código cuando todos los LEDs hayan sido prendidos. </p>
+                        <p class="fs-6 mb-4">Lo ultimo que hicimos fue programar el arduino, posterior a eso construimos el circuito en el protoboard, que consistía en colocar un LED y formar una conexión con dos botones. Para este circuito usamos dos códigos, el primer código tenía una condicional OR, donde si presionabas cualquiera de los 2 botones, el LED iba a prender, el segundo código tenía una condicional AND, donde solo si presionabas los 2 botones, el LED iba a prender. </p>
+
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">Antes de la construcción física de los circuitos, los simulamos en la plataforma Tinkercad para verificar que funcionen. Estas simulaciones nos permitieron ver el comportamiento de los circuitos antes de armarlos para asegurar que los armaramos correctamente. En las simulaciones, se observaron aspectos como la secuencia de encendido de los LEDs, el uso de resistencias adecuadas y la respuesta de botones o sensores. </p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Entrada digital 1 LED 1 Boton</h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/entrada digital boton.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ARDUINO ENTRADA DIGITAL BOTON.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ARDUINO ENTRADA DIGITAL CONDICIONALES.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Entrada digital 2 LEDs 2 botones </h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/dos botones.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ARDUINO ENTRADA DIGITAL 2 BOTONES.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Contador 4 LEDs 1 botón </h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/boton 4 leds.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ARDUINO CONTADOR LEDS.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Condicional OR y AND </h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/condicionales or boton.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ARDUINO CONDICIONALES AND Y OR.png" alt="..." /></figure>
+
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Para el diseño de la práctica utilizamos la página Tinkercad, donde diseñamos cada circuito en el protoboard con sus materiales, y en el apartado de codificación escribimos el código del arduino, para al final simular lo que pasaría con dicho código en el arduino y el diseño del protoboard, y analizar errores y aciertos. </p>
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">La construcción del primer circuito conectamos el arduino a la computadora, con pines conectamos la entrada del arduino 5V al lado positivo del proto, y la entrada GND al lado negativo del proto, luego colocamos un led y le conectamos su respectivo resistor, en la punta negativa del LED se llevó al lado negativo del pronto, y la otra punta del resistor fue conectada con un pin a la entrada 13 del arduino. Luego colocamos un boton con su respectivo resistor conectando la otra punta de este al lado negativo del proto, el primer pin del botón fue conectado a la entrada 8 del arduino con un pin, y el segundo pin del botón fue conectada al lado positivo del proto con un pin. </p>
+                            <p class="fs-6 mb-4">La construcción del segundo circuito conectamos el arduino a la computadora, con pines conectamos la entrada del arduino 5V al lado positivo del proto, y la entrada GND al lado negativo del proto, luego colocamos dos LEDs y le conectamos su respectivo resistor, en la punta negativa de cada LED se llevó al lado negativo del pronto, y la otra punta de un resistor fue conectada con un pin a la entrada 13 del arduino, y la punta del otro resistor en la entrada –11. Luego colocamos dos botones con su respectivo resistor conectando la otra punta de estos al lado negativo del proto, el primer pin del primer botón fue conectado a la entrada 8 del arduino con un pin, y el segundo pin del primer botón fue conectada al lado positivo del proto con un pin, el primer pin del segundo botón fue conectado a la entrada 2 del arduino con un pin, y el segundo pin del segundo botón fue conectada al lado positivo del proto con un pin. </p>
+                            <p class="fs-6 mb-4">La construcción del tercer circuito conectamos el arduino a la computadora, con pines conectamos la entrada del arduino 5V al lado positivo del proto, y la entrada GND al lado negativo del proto, luego colocamos cuatro LEDs y le conectamos su respectivo resistor, en la punta negativa de cada LED se llevó al lado negativo del pronto, y la otra punta de cada resistor fue conectada con un pin a las entradas 13, 12, -11, -10 del arduino. Luego colocamos un botón con su respectivo resistor conectando la otra punta de este al lado negativo del proto, el primer pin del botón fue conectado a la entrada 2 del arduino con un pin, y el segundo pin del botón fue conectada al lado positivo del proto con un pin.</p>
+                            <p class="fs-6 mb-4">La construcción del cuarto circuito conectamos el arduino a la computadora, con pines conectamos la entrada del arduino 5V al lado positivo del proto, y la entrada GND al lado negativo del proto, luego colocamos 1 LEDs y le conectamos su respectivo resistor, en la punta negativa del LED se llevó al lado negativo del pronto, y la otra punta de resistor fue conectada con un pin a la entrada 13, del arduino. Luego colocamos dos botones con su respectivo resistor conectando la otra punta de estos al lado negativo del proto, el primer pin del primer botón fue conectado a la entrada 8 del arduino con un pin, y el segundo pin del primer botón fue conectada al lado positivo del proto con un pin, el primer pin del segundo botón fue conectado a la entrada 2 del arduino con un pin, y el segundo pin del segundo botón fue conectada al lado positivo del proto con un pin.</p>
+                            
+
+                            <p id="Resultados"></p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                            <p class="fs-6 mb-4">En la primera práctica el circuito respondió de igual manera en ambos códigos, en ambos códigos el LED prendía si el botón era presionado.</p>
+                            <p class="fs-6 mb-4">En la segunda práctica los LEDs respondían según habíamos programado el arduino, en ambos códigos el LED prendía si su botón correspondiente era presionado. </p>
+                            <p class="fs-6 mb-4">En la tercera práctica los LED respondían según habíamos programado el arduino, cada que se presionaba el botón, en manera de contador, se van encendiendo los LEDs, manteniéndose encendidos uno tras otro, si los 4 LEDs están encendidos y se vuelve a presionar el botón, se reinicia el conteo. </p>
+                            <p class="fs-6 mb-4">En la quinta práctica el LED respondía según habíamos programado el arduino, en el primero código el LED encendía si se presionaba cualquiera de los 2 botones, en el segundo código el LED encendía si se presionaban los 2 botones al mismo tiempo.</p>
+                            <p id="Resultados"></p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Entrada digital boton</h2>  
+                            <figure class="mb-4" align="left" ><video width="40%"  controls>  
+                                <source src="video/Video1.mp4" type="video/mp4">                       
+                            </video>
+                            <p id="Resultados"></p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Entrada digital 2 botones</h2>                   
+                            <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                                <source src="video/Video2.mp4" type="video/mp4">                       
+                            </video></p></figure>
+                            <p id="Resultados"></p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Entrada digital condicionales boton</h2>                   
+                            <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                                <source src="video/Video3.mp4" type="video/mp4">                       
+                            </video></p></figure>
+                            <p id="Resultados"></p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Entrada digital condicionales 2 botones</h2>                   
+                            <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                                <source src="video/Video4.mp4" type="video/mp4">                       
+                            </video></p></figure>
+                            <p id="Resultados"></p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Contador leds</h2>                   
+                            <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                                <source src="video/Video5.mp4" type="video/mp4">                       
+                            </video></p></figure>
+                            <p id="Resultados"></p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Condicionales OR boton</h2>                   
+                            <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                                <source src="video/Video6.mp4" type="video/mp4">                       
+                            </video></p></figure>
+                            <p id="Resultados"></p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Condicionales AND botones</h2>                   
+                            <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                                <source src="video/Video7.mp4" type="video/mp4">                       
+                            </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Logramos aprender a manejar entradas y salidas digitales, en especial el uso de LEDs y botones, y conocer que un mismo circuito puede tener diferentes resultados dependiendo de la función que tenga el código escrito en el arduino. </p>
+                        <p class="fs-6 mb-4">El uso de simuladores como Tinkercad nos ayudó para ver cómo funcionaba el circuito antes de armarlo. </p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Llamas, L. (2014, 31 mayo). Entradas digitales en Arduino. Luis Llamas.</p>
+                        
+                        <p id="descargables">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino Entradas Digitales: <a href="files/entradasdigitales.ino">entradasdigitales.ino</a> </p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

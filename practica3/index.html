@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 3 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Arduino</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/jp.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Andrea Tapia Balvanera</div>
+                                <div class="text-muted">Ingeniería Mecatronica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Agosto 30, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >HTML</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/arduinouno.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica aprendimos teoría básica de un Arduino, como saber para qué sirve, para qué se usa, su origen y cómo nos ayuda en los procesos de armados electricos, aprendimos también a cómo programarlo para que haga funciones específicas como: prender uno o más LEDS, y programar un visualizador 7 segmentos.</p>
+
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Un Arduino se refiere a una plataforma o placa electrónica de código abierto y al software utilizado para programarla. Arduino está diseñado para hacer que la electrónica sea más accesible a artistas, diseñadores, aficionados y cualquier persona interesada en crear objetos o entornos interactivos. Una placa Arduino puede comprarse premontada o, dado que el diseño del hardware es de código abierto, construirse a mano. En cualquier caso, los usuarios pueden adaptar las placas a sus necesidades, así como actualizar y distribuir sus propias versiones.</p>
+                        <p class="fs-6 mb-4">Inicialmente se creó con el objetivo de que cualquiera pudiera usarlo, hoy en día es una plataforma que se utiliza para la mayoría de proyectos de electrónica. Esta práctica tiene como objetivo conocer el arduino a partir del armado de circuitos sencillos, asi como familiarizarse con las bases del lenguaje para arduino. </p>
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4"> Arduino UNO </p> Jumpers </p> LED </p> Resistencias </p> Display de 7 segmentos </p>
+
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Lo primero que hicimos fue  aprender mediante la práctica a programar un arduino en sí mismo. </p>
+                        <p class="fs-6 mb-4">Como segunda actividad, después de aprender a programar el arduino, le colocamos un LED al arduino en las entradas GND y 13, el LED parpadeaba.</p>
+                        <p class="fs-6 mb-4">Como tercera actividad conectamos el arduino a un protoboard, en el protoboard se colocó un LED con su respectivo resistor, programamos el arduino para que el LED parpadeara.</p>
+                        <p class="fs-6 mb-4">Como cuarta actividad con el arduino conectado al protoboard, en el protoboard conectamos dos LEDS con sus respectivos resistores, programamos el arduino para que los dos LEDS parpadearan al mismo tiempo, y después programamos el arduino para que cada LED parpadeara con un delay entre ellos.</p>
+                        <p class="fs-6 mb-4">Como quinta actividad con el arduino conectado al protoboard, en el protoboard conectamos el visualizador 7 segmentos con su respectivo resistor, primero programamos el arduino para que el visualizador 7 segmentos proyectara una línea horizontal en el centro, después programamos el arduino para que proyectara un contador del 0 al 2.</p>
+                        
+                            <p id="simulacion">
+                            <p class="fs-6 mb-4">Antes de la construcción física de los circuitos, los simulamos en la plataforma Tinkercad para verificar que funcionen. Estas simulaciones nos permitieron ver el comportamiento de los circuitos antes de armarlos para asegurar que los armáramos correctamente. En las simulaciones, se controlaron aspectos como la secuencia de encendido de los LEDs, el uso de resistencias adecuadas y la respuesta de botones o sensores.</p>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Arduino</h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/arduino.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/EJEMPLOBLINK.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/SALIDA DIGITAL HIGH.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/SALIDA DIGITAL LOW.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/SALIDA DIGITAL DELAY ARDUINO.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Salida Digital LED</h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/salida digital led.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ARDUINO SALIDA DIGITAL LED.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Salida digital protoboard (1 LED)</h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/salida digital proto 1 led.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ARDUINO SALIDA DIGITAL PROTO.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Salida digital protoboard (2 LED encendidos al mismo tiempo)</h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/salida digital proto 2 leds.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/SALIDA DIGITAL LEDS 1 ARDUINO.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Salida digital protoboard (2 LED encendidos con delay)</h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/salida digital proto delay.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/SALIDA DIGITAL 2 LEDS DELAY ARDUINO.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Salida digital visualizador 7 segmentos (línea horizontal en el centro.)</h2>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/visualizador 1.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/salida digital visualizador.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ARDUINO SALIDA DIGITAL DISPLAY 7 SEGMENTOS.png" alt="..." /></figure>
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">Salida digital visualizador 7 segmentos (contador 0 al 2)</h2> 
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/contador.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/salida digital contador.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ARDUINO CONTADOR.png" alt="..." /></figure>
+
+                    
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Para el diseño de la práctica utilizamos la página Tinkercad, donde diseñamos cada circuito en el protoboard con sus materiales, y en el apartado de codificación escribimos el código del arduino, para al final simular lo que pasaría con dicho codigo en el arduino y el diseño del protoboard, y analizar errores.</p>
+
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">La construcción del circuito se realizó en un protoboard, iniciando con la selección de un Arduino, LEDs, resistores y visualizador 7 segmentos.</p>
+                            <p class="fs-6 mb-4">Para la primera práctica conectamos el arduino a la computadora y usamos el programa “Arduino” para programarlo.</p>
+                            <p class="fs-6 mb-4">En la segunda práctica con el arduino conectado a la computadora y programado, conectamos un LED en las entradas GND y 13.</p>
+                            <p class="fs-6 mb-4">En la tercera práctica con el arduino conectado a la computadora y programado, conectamos el arduino al protoboard, con pines colocamos la entrada del arduino 3.3V al lado positivo del proto, y la entrada GND al lado negativo del proto, y en el protoboard colocamos un LED con un resistor de 220 Ω, con un pin llevamos la punta negativa del LED al lado negativo del proto, y conectamos la otra punta del resistor a la entrada 13 del arduino con un pin.</p>
+                            <p class="fs-6 mb-4">En la cuarta práctica con el arduino conectado a la computadora y programado, conectamos el arduino al protoboard, con pines colocamos la entrada del arduino 5V al lado positivo del proto, y la entrada GND al lado negativo del proto, y en el protoboard colocamos dos LEDS con un resistor de 220 Ω cada una, con un pin llevamos la punta negativa de cada LED al lado negativo del proto, y conectamos la otra punta de un resistor a la entrada 13 del arduino con un pin, y con otro pin conectamos la punta de un resistor a la punta del resistor conectado a la entrada 13.</p>
+                            <p class="fs-6 mb-4">En la quinta práctica con el arduino conectado a la computadora y programado, conectamos el arduino al protoboard, con pines colocamos la entrada del arduino 3.3V al lado positivo del proto, y la entrada GND al lado negativo del proto, y en el protoboard colocamos el visualizador 7 segmentos, con 8 pines conectamos en el proto cada uno en cada pin del visualizador (exceptuando el central), luego los llevamos a las entradas 13, 12, 11, 10, 9, 7, 6, 5, 4, del arduino, luego conectamos un resistor de 220 Ω , una punta del resistor fue conectada con un pin al lado negativo del proto, y la otra punta fue conectada con un pin al pin central del visualizador.</p>
+                            <p class="fs-6 mb-4"></p>
+                            <p class="fs-6 mb-4"></p>
+
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">En la primera práctica el arduino respondió según lo habíamos programado.</p>
+                        <p class="fs-6 mb-4">En la segunda y tercera  práctica el LED respondió según habíamos programado el arduino, el LED parpadea.</p>
+                        <p class="fs-6 mb-4">En la cuarta práctica los dos LEDs respondieron según habíamos programado el arduino, en el primer código los LEDs parpadean al mismo tiempo, en el segundo código los LEDs parpadean con delay entre ellos.</p>
+                        <p class="fs-6 mb-4">En la quinta práctica el visualizador 7 segmentos respondió según habíamos programado el arduino, en el primer código el visualizador solo proyectaba una línea horizontal en el centro, y en el segundo código el visualizador proyectaba un contador del 0 al 2.</p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Ejemplo blink -</h2>  
+                        <figure class="mb-4" align="left" ><video width="40%"  controls>  
+                            <source src="video/Video0.1.mp4" type="video/mp4">                       
+                        </video>
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Salida Digital HIGH -</h2>                   
+                        <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                            <source src="video/Video 0.2.mp4" type="video/mp4">                       
+                        </video></p></figure>
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Salida Digital LOW -</h2>                   
+                        <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                            <source src="video/Video 0.3.mp4" type="video/mp4">                       
+                        </video></p></figure>
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Salida Digital Delay -</h2>                   
+                        <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                            <source src="video/Video 0.4.mp4" type="video/mp4">                       
+                        </video></p></figure>
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Salida Digital LED -</h2>                   
+                        <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                            <source src="video/Video 0.5.mp4" type="video/mp4">                       
+                        </video></p></figure>
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Salida Digital Protoboard -</h2>                   
+                        <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                            <source src="video/Video 0.6.mp4" type="video/mp4">                       
+                        </video></p></figure>
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Salida Digital leds 1 -</h2>                   
+                        <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                            <source src="video/Video 0.7.mp4" type="video/mp4">                       
+                        </video></p></figure>
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Salida Digital leds 2 -</h2>                   
+                        <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                            <source src="video/Video 0.9.mp4" type="video/mp4">                       
+                        </video></p></figure>
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Salida digital display 7 segmentos -</h2>                   
+                        <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                            <source src="video/Video 0.10.mp4" type="video/mp4">                       
+                        </video></p></figure>
+                        <p id="Resultados"></p>
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Salida digital display 7 segmentos -</h2>                   
+                        <figure class="mb-4" align="rigth" ><video width="40%"  controls>  
+                            <source src="video/Video 0.11.mp4" type="video/mp4">                       
+                        </video></p></figure>
+        
+                            
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Logramos aprender a programar un arduino, a saber para que se usa y como se usa, también a cómo programarlo para que haga funciones específicas en un protoboard, como encender un LED en una frecuencia específica o hacer que el visualizador proyecte algo en específico en frecuencias específicas.</p>
+                        <p class="fs-6 mb-4">El uso de simuladores como Tinkercad nos ayudo para ver como funcionaba el circuito antes de armarlo.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Fernández, Y. (2022, 23 septiembre). Qué es Arduino, cómo funciona y qué puedes hacer con uno. Xataka.</p>
+
+                        <p id="descargables">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                            <p class="fs-6 mb-4">Descargar codigo Arduino Salidas Digitales: <a href="files/salidasdigitales.ino">salidasdigitales.ino</a> </p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

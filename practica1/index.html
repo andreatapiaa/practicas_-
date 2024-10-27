@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Circuito con temporizador 555</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/jp.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Andrea Tapia Balvanera</div>
+                                <div class="text-muted">Ingeniería Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Agosto 16, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En la primera práctica, se diseñó y construyó un circuito astable utilizando el temporizador 555. El circuito tiene como objetivo hacer parpadear un led, para ello, se hizo uso de un potenciométro y una fuente de alimentación de 9V.</p>
+                        
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">El temporizador 555 es uno de los circuitos integrados más populares y versátiles en el mundo de la electrónica. este componente se ha utilizado en una variedad de aplicaciones debido a su capacidad para funcionar en diferentes modos: astable, monoestable y bistable. Cada modo permite al 555 realizar diferentes funciones, desde generar pulsos hasta crear temporizaciones precisas.</p>
+                        <p class="fs-6 mb-4">En esta práctica, se empleó el temporizador 555 en configuración astable para crear un circuito que produce un parpadeo de LED. La frecuencia del parpadeo se regula mediante un potenciómetro, permitiendo ajustar la velocidad del parpadeo del LED.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Los materiales que se utilizaron fueron: leds, un temporizador 555, un capacitor, un transistor, jumpers macho macho, un par de caimanes, una pila de 9V, resistencias de 220 ohms y 1KOhms, potenciómetro.</p>
+
+                        <p id="desarrollo">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                            <p class="fs-6 mb-4">Hicimos la práctica utilizando como guía el diagrama del circuito astable. Utilizamos la plataforma de tinkercad para simular el circuito basándonos en el diagrama mencionado, e identificar cómo funcionaba para asegurar que lo construyéramos correctamente. Una vez realizado el circuito en tinkercad, construimos el circuito en físico. Para esto seleccionamos las piezas que íbamos a ocupar (jumpers, resistencias, leds, capacitores, potenciómetro) y empezamos con el armado. Por último, conectamos la tierra y la línea de VDD a las terminales de la pila para alimentar el circuito.</p>
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">Antes de pasar a la construcción física del circuito, se simuló en tinkercad. Para esto, se siguió el diagrama del circuito. La simulación permitió verificar el funcionamiento del circuito y confirmar que el temporizador 555 operaba como se esperaba, generando el parpadeo del LED con la frecuencia ajustable</p>
+                            <p class="fs-6 mb-4">Gracias a la simulación, fuimos capaces de entender el comportamiento del circuito y así, hacer los cambios necesarios en caso de que no funcionara. Esta fase de simulación facilitó una comprensión más profunda del circuito y aseguró que todos los componentes estuvieran correctamente configurados.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/ne555.png" alt="..." /></figure>
+                    
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Se siguió el diagrama del circuito proporcionado en clase. El circuito está configurado en modo astable, lo que significa que marcaba altos y bajos de forma continua. Para esto se hicieron uso de tres resistencias importantes (de1000 ohms y 220 ohms), un capacitor, transistor y un potenciómetro.</p>
+                            <p class="fs-6 mb-4">Se hizo uso de un protoboard para la base de la construcción de nuestro circuito. Los componentes fueron conectados según el diagrama, haciendo uso del temporizador, capacitor, transistor, resietencias, led. Las conexiones se realizaron con cuidado para asegurar la correcta integración de cada componente. Finalmente, las líneas de alimentación y tierra fueron conectadas a una pila de 9V, proporcionando la energía necesaria para el funcionamiento del circuito. Se verificaron todas las conexiones antes de encender el circuito para asegurarse de que no hubiera errores y que todo estuviera funcionando según el diseño.</p>
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">Se hizo uso de un protoboard para la base de la construcción de nuestro circuito. Los componentes fueron conectados según el diagrama, haciendo uso del temporizador, capacitor, transistor, resietencias, led. Las conexiones se realizaron con cuidado para asegurar la correcta integración de cada componente. Finalmente, las líneas de alimentación y tierra fueron conectadas a una pila de 9V, proporcionando la energía necesaria para el funcionamiento del circuito. Se verificaron todas las conexiones antes de encender el circuito para asegurarse de que no hubiera errores y que todo estuviera funcionando según el diseño.</p>
+                            
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">El circuito funcionó de manera correcta. El led parpadeó y se podía ajustar con el potenciómetro, coincidiendo con la simulación.</p>
+                        <figure class="mb-4" align="center"><video width="60%"  controls>
+                            <source src="video/555.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">La práctica permitió comprender el funcionamiento del temporizador 555 en configuración astable y su aplicación en la generación de señales oscilatorias. La simulación previa a la construcción fue útil para prever el comportamiento del circuito y realizar ajustes necesarios. La construcción física confirmó que el diseño y la simulación estaban correctos.</p>
+                          
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                            <p class="fs-6 mb-4">Descargar Circuito Multisim: <a href="files/circuito multisim.pdf"></a> </p>
+    
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
